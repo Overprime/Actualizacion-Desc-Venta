@@ -5,7 +5,7 @@ function Conectarse()
 
 {
 
-if(!($link=mssql_connect("192.168.1.4","SOPORTE","SOPORTE")))
+if(!($link=mssql_connect("192.168.1.4","APLICACIONES","APLICACIONES")))
 {
 
 echo"Presione F5 para Actualizar :P";
